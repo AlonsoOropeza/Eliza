@@ -1,8 +1,8 @@
 # Eliza
-Prolog NLP & cognitive behavioural therapy program
+Prolog NLP & cognitive behavioural therapy program.
 
 
-Alonso Oropeza et Lisieux Serrano
+Alonso Oropeza et Lisieux Serrano.
 
 
 ---
