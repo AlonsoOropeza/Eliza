@@ -1,17 +1,12 @@
 # Eliza
-Prolog Implementation
-
-
-Programming Language's Project
+Prolog NLP & cognitive behavioural therapy program
 
 
 Alonso Oropeza et Lisieux Serrano
 
 
-This is the repository of the project and guide for the implementation.
-
 ---
-
+### Links
 Check this [article](https://a01207648.medium.com/elizas-emotional-support-in-times-of-covid-prolog-implementation-20a06601c6d8) to understand the heart of the project. 
 
 
@@ -19,3 +14,12 @@ If you want to see what is inside the black box, check the [handbook](https://do
 
 
 For version control, click [here](https://github.com/AlonsoOropeza/Eliza/releases).
+
+---
+
+### How to run it
+1. Download [SWI-Prolog](https://www.swi-prolog.org/download/stable) or go to [SWISH](https://swish.swi-prolog.org/) on your web browser.
+2. Download the [latest stable version](https://github.com/AlonsoOropeza/Eliza/releases/tag/v1.1) from the repository, save it with pl extension.
+3. Load the pl file into the IDE.
+4. Run the code with the rule eliza().
+5. Enjoy!
