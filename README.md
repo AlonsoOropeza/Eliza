@@ -15,6 +15,8 @@ If you want to see what is inside the black box, check the [handbook](https://do
 
 Special thanks to future beta testers, you are [making this project posible](https://blm40341o41.typeform.com/to/VWwB1ZQ6).
 
+<img src="typeform.png" alt="drawing" width="220"/>
+
 
 For version control, click [here](https://github.com/AlonsoOropeza/Eliza/releases). 
 
