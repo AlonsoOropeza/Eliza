@@ -16,7 +16,7 @@ If you want to see what is inside the black box, check the [handbook](https://do
 For version control, click [here](https://github.com/AlonsoOropeza/Eliza/releases). 
 
 
-Special thanks to future beta testers, you are [making this proyect posible](https://docs.google.com/forms/d/1l0ASqyet4jrIpFWyFYsWIk8vX1vAHVmlKMGEqXs86Jc/edit).
+Special thanks to future beta testers, you are [making this project posible](https://docs.google.com/forms/d/1l0ASqyet4jrIpFWyFYsWIk8vX1vAHVmlKMGEqXs86Jc/edit).
 
 ---
 
