@@ -13,12 +13,9 @@ Check this [article](https://a01207648.medium.com/elizas-emotional-support-in-ti
 If you want to see what is inside the black box, check the [handbook](https://docs.google.com/document/d/1WVpbfVb5ezepsdpwlL0w93YCk4Lmy-G8l5KOliERiO8/edit?usp=sharing).
 
 
-Special thanks to future beta testers, you are [making this project posible](https://blm40341o41.typeform.com/to/VWwB1ZQ6).
+Special thanks to the [beta testers](https://blm40341o41.typeform.com/to/VWwB1ZQ6), you are making this project posible.
 
 <img src="typeform.png" alt="qr_code" width="220"/>
-
-
-For version control, click [here](https://github.com/AlonsoOropeza/Eliza/releases). 
 
 ---
 
@@ -30,4 +27,3 @@ For version control, click [here](https://github.com/AlonsoOropeza/Eliza/release
 3. Load the file into the IDE.
 4. Run the code by typing the rule eliza.  
 <img src="tutorial.png" alt="tutorial"/>
-5. Enjoy!
