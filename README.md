@@ -21,7 +21,7 @@ Special thanks to the [beta testers](https://blm40341o41.typeform.com/to/VWwB1ZQ
 
 ### How to run it
 
-1. Download [SWI-Prolog](https://www.swi-prolog.org/download/stable) or go to [SWISH](https://swish.swi-prolog.org/) on your web browser.
+1. Go to [SWISH](https://swish.swi-prolog.org/) on your web browser.
 2. Download the [latest stable version](https://github.com/AlonsoOropeza/Eliza/releases) from the repository, save it with .pl extension.  
 2.1. Otherwise, copy the code from the [latest stable version](https://drive.google.com/drive/folders/1vofNHv89TOOc2rSNBihmJt7lDVo3FpAk?usp=sharing) from Drive, and paste it in a new pl file.
 3. Load the file into the IDE.
