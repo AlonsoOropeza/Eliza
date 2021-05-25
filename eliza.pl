@@ -156,7 +156,7 @@ level(secure, pleasant, low, one).
 level(satisfied, pleasant, low, one).
 level(relaxed, pleasant, low, one).
 level(chill, pleasant, low, one).
-level(restfull, pleasant, low, one).
+level(restful, pleasant, low, one).
 level(mellow, pleasant, low, one).
 
 level(depressed, unpleasant, low, two).
@@ -171,7 +171,7 @@ level(fatigued, unpleasant, low, two).
 
 level(disgusted, unpleasant, low, one).
 level(glum, unpleasant, low, one).
-level(dissapointed, unpleasant, low, one).
+level(disappointed, unpleasant, low, one).
 level(pessimistic, unpleasant, low, one).
 level(morose, unpleasant, low, one).
 level(discouraged, unpleasant, low, one).
@@ -181,7 +181,7 @@ level(lonely, unpleasant, low, one).
 level(despondent, unpleasant, low, one).
 
 level(exhilarated, pleasant, high, two).
-level(excstatic, pleasant, high, two).
+level(ecstatic, pleasant, high, two).
 level(inspired, pleasant, high, two).
 level(elated, pleasant, high, two).
 level(optimistic, pleasant, high, two).
@@ -204,7 +204,7 @@ level(enthusiastic, pleasant, high, one).
 level(energized, pleasant, high, one).
 level(pleased, pleasant, high, one).
 level(happy, pleasant, high, one).
-level(pleassant, pleasant, high, one).
+level(pleasant, pleasant, high, one).
 level(joyful, pleasant, high, one).
 
 level(jittery, unpleasant, high, two).
