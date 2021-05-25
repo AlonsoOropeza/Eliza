@@ -60,7 +60,7 @@ bias(unpleasant, Thought):-
     fallacy_of_justice,maximize_the_negative,culpability,read_minds,catastrophize,
     minimize_the_positive,fallacy_of_change,be_right,polarize,guess_the_future,think_I_should]),
     read(Bias),
-    write('Think how is that: '),write(X),write(', '),write(Y), write(', '),write('and '),write(Z),
+    write('Think how is that: '),write(X),write(', '),write(Y),write(' and '),write(Z),
     write(' lead you to '),write(Bias),nl,
     write('Although we cannot control what happens to us, if we can take responsibility for 
            our thoughts, it will make us have better emotional satisfaction'),nl,
@@ -89,32 +89,27 @@ ask_aspects():-
     read(C),
     assert(aspect(A,B,C)).
 
+prueba():-
+    status(E),
+    level(E, Mood, _, _),
+    write('From what you shared with me, can you identify the thought that is behind this '),
+    write(Mood),write(' emotion?'),nl,
+    write('These are automatic, we do not control them, but are the cause to our emotions'),nl,
+    write('On the other hand, the emotions are the reactions to these thoughts'),nl,
+    write('With this in mind, can you identify the thought that made you feel this way?'),
+    read(Thought),
+    assert(interior(Thought)),
+    bias(Mood, Thought).
+
 extra_exterior(yes):- 
     exterior(H, _),
-    status(E),
     write('Please, write about it'),
     read(Extra),
     assert(exterior(H, Extra)),
-    level(E, Mood, _, _),
-    write('From what you shared with me, can you identify the thought that is behind this '),
-    write(Mood),write(' emotion?'),nl,
-    write('These are automatic, we do not control them, but are the cause to our emotions'),nl,
-    write('On the other hand, the emotions are the reactions to these thoughts'),nl,
-    write('With this in mind, can you identify the thought that made you feel this way?'),
-    read(Thought),
-    assert(interior(Thought)),
-    bias(Mood, Thought).
+    prueba().
+    
 extra_exterior(no):-
-    status(E),
-    level(E, Mood, _, _),
-    write('From what you shared with me, can you identify the thought that is behind this '),
-    write(Mood),write(' emotion?'),nl,
-    write('These are automatic, we do not control them, but are the cause to our emotions'),nl,
-    write('On the other hand, the emotions are the reactions to these thoughts'),nl,
-    write('With this in mind, can you identify the thought that made you feel this way?'),
-    read(Thought),
-    assert(interior(Thought)),
-    bias(Mood, Thought).
+    prueba().
 
 introduction():-
      write('Hi, I am eliza'),nl,
@@ -156,7 +151,7 @@ level(secure, pleasant, low, one).
 level(satisfied, pleasant, low, one).
 level(relaxed, pleasant, low, one).
 level(chill, pleasant, low, one).
-level(restful, pleasant, low, one).
+level(restfull, pleasant, low, one).
 level(mellow, pleasant, low, one).
 
 level(depressed, unpleasant, low, two).
@@ -168,10 +163,11 @@ level(disheartened, unpleasant, low, two).
 level(tired, unpleasant, low, two).
 level(exhausted, unpleasant, low, two).
 level(fatigued, unpleasant, low, two).
+level(serious, unpleasant, low, two).
 
 level(disgusted, unpleasant, low, one).
 level(glum, unpleasant, low, one).
-level(disappointed, unpleasant, low, one).
+level(dissapointed, unpleasant, low, one).
 level(pessimistic, unpleasant, low, one).
 level(morose, unpleasant, low, one).
 level(discouraged, unpleasant, low, one).
@@ -181,7 +177,7 @@ level(lonely, unpleasant, low, one).
 level(despondent, unpleasant, low, one).
 
 level(exhilarated, pleasant, high, two).
-level(ecstatic, pleasant, high, two).
+level(excstatic, pleasant, high, two).
 level(inspired, pleasant, high, two).
 level(elated, pleasant, high, two).
 level(optimistic, pleasant, high, two).
@@ -204,7 +200,7 @@ level(enthusiastic, pleasant, high, one).
 level(energized, pleasant, high, one).
 level(pleased, pleasant, high, one).
 level(happy, pleasant, high, one).
-level(pleasant, pleasant, high, one).
+level(pleassant, pleasant, high, one).
 level(joyful, pleasant, high, one).
 
 level(jittery, unpleasant, high, two).
