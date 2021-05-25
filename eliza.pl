@@ -89,7 +89,7 @@ ask_aspects():-
     read(C),
     assert(aspect(A,B,C)).
 
-prueba():-
+thought():-
     status(E),
     level(E, Mood, _, _),
     write('From what you shared with me, can you identify the thought that is behind this '),
@@ -106,10 +106,10 @@ extra_exterior(yes):-
     write('Please, write about it'),
     read(Extra),
     assert(exterior(H, Extra)),
-    prueba().
+    thought().
     
 extra_exterior(no):-
-    prueba().
+    thought().
 
 introduction():-
      write('Hi, I am eliza'),nl,
@@ -153,6 +153,7 @@ level(relaxed, pleasant, low, one).
 level(chill, pleasant, low, one).
 level(restfull, pleasant, low, one).
 level(mellow, pleasant, low, one).
+level(good, pleasant, low, one).
 
 level(depressed, unpleasant, low, two).
 level(down, unpleasant, low, two).
